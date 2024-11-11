@@ -1,32 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 body {
 	background-color: black;
 }
 
-div {
-	background-color: 0f0f0f;
-	margin: auto;
-	width: 75%:
-	border: 3px solid white;
+.font__source-code-pro {
+	font-family: "Source Code Pro", monospace;
+	font-optical-sizing: auto;
+	font-weight: normal;
+	font-style: normal;
 }
 
-h1 {
+/* I renamed the classes so that the followed the BEM naming convention that appears to be standard */
+
+.box-div {
+	background-color: #0f0f0f;
+	margin: auto;
+	width: 90%;
+	border: 3px solid white;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+.box-div__main-header {
 	color: white;
-	text-align: center
+	text-align: center;
 	border-style: solid;
 	border-width: 3px;
 	border-color: white;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: -8px;
+	margin-bottom: 0px;
 }
 
-p {
+.box-div__basic-paragraph {
 	color: white;
 }
 
-p {
-	color: red;
-}
-
-p {
+.box-div__right-aligned-paragraph {
 	color: white;
 	text-align: right
 }
 
+.box-div__basic-header {
+	color: white;
+	text-align: center;
+}
