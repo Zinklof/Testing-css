@@ -18,8 +18,16 @@ body {
 	padding: 0px 0px;
 }
 
-.nav__logo {
-	text-align:center;
+.nav__logo-image {
+	width: 237px;
+	height: 32px;
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+.nav__logo-paragraph {
+	padding: 0px 0px;
+	margin: 0px 0px;
 }
 
 .nav__div {
@@ -43,6 +51,10 @@ body {
 	padding-left: 16px;
 }
 
+.nav__button-holder {
+	padding: 8px 0px;
+}
+
 .nav__button {
 	text-align: center;
 	background-color: #353535;	
@@ -58,7 +70,7 @@ body {
 	padding: var(--nav-button-top-bottom-padding) var(--nav-button-right-left-padding);
 }
 
-.nav__button--hover
+.nav__button:hover
 {
 	text-align: center;
 	background-color: #444444;
