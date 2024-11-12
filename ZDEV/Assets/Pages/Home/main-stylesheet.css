@@ -14,88 +14,54 @@
 
 body {
 	background-color: black;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-right: 0px;
-	padding-left: 0px;
+	margin: 0px 0px;
+	padding: 0px 0px;
 }
 
-.nav__body {
-	background-color: #222222;
-	color: white;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-right: 0px;
-	padding-left: 0px;
-	height: 24px;
+.nav__logo {
+	text-align:center;
 }
 
-.nav__inline-div {
+.nav__div {
 	display: inline-block;
 	background-color: #222222;
 	color: white;
+	width: 100%;
+	margin: 0px 0px;
+	padding: 0px 0px;
 }
 
-.nav__float-right {
+.nav__item--float-right {
 	display: inline-block;
 	float: right;
 	padding-right: 16px;
 }
 
-.nav__float-left {
+.nav__item--float-left {
 	display: inline-block;
 	float: left;
-	padding-left: 16px;s
+	padding-left: 16px;
 }
 
 .nav__button {
-	float: right;
 	text-align: center;
-	background-color: #353535;
-	margin-top: 0px;
-	margin-bottom: 6px;
-	margin-left: 0px;
-	margin-right: 2px;
-	padding-top: var(--nav-button-top-bottom-padding);
-	padding-bottom: var(--nav-button-top-bottom-padding);
-	padding-right: var(--nav-button-right-left-padding);
-	padding-left: var(--nav-button-right-left-padding);
+	background-color: #353535;	
+	margin: 0px 1px;
+	padding: var(--nav-button-top-bottom-padding) var(--nav-button-right-left-padding);
 }
 
 .nav__button--active
 {	
-	float: right;
 	text-align: center;
 	background-color: #205020;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 2px;
-	margin-right: 2px;
-	padding-top: var(--nav-button-top-bottom-padding);
-	padding-bottom: var(--nav-button-top-bottom-padding);
-	padding-right: var(--nav-button-right-left-padding);
-	padding-left: var(--nav-button-right-left-padding);
+	margin: 0px 1px;
+	padding: var(--nav-button-top-bottom-padding) var(--nav-button-right-left-padding);
 }
 
 .nav__button--hover
 {
-	float: right;
 	text-align: center;
 	background-color: #444444;
-	margin-top: 6px;
-	margin-bottom: 0px;
-	margin-left: 2px;
-	margin-right: 2px;
-	padding-top: var(--nav-button-top-bottom-padding);
-	padding-bottom: var(--nav-button-top-bottom-padding);
-	padding-right: var(--nav-button-right-left-padding);
-	padding-left: var(--nav-button-right-left-padding);
+	margin: 0px 1px;
+	padding: var(--nav-button-top-bottom-padding) var(--nav-button-right-left-padding);
 }
