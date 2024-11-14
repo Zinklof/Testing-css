@@ -57,50 +57,65 @@
 	padding: var(--nav-button-top-bottom-padding) var(--nav-button-right-left-padding);
 }
 
-.nav__button--active
-{	
+.nav__button--active {	
 	text-align: center;
 	background-color: #205020;
 	margin: 0px 1px;
 	padding: var(--nav-button-top-bottom-padding) var(--nav-button-right-left-padding);
 }
 
-.nav__button--active:hover
-{
+.nav__button--active:hover {
 	text-align: center;
 	background-color: #306030;
 	margin: 0px 1px;
 	padding: var(--nav-button-top-bottom-padding) var(--nav-button-right-left-padding);
 }
 
-.nav__button:hover
-{
+.nav__button:hover {
 	text-align: center;
 	background-color: #444444;
 	margin: 0px 1px;
 	padding: var(--nav-button-top-bottom-padding) var(--nav-button-right-left-padding);
 }
 
-.main__body
-{
+.main__body {
 	background-color: #000000;
 	margin: 0px 0px;
 	padding: 0px 0px;
 }
 
-.main__div
-{
-	width: 100%;
-	margin: 0px 0px;
-	padding 0px 0px;
+.main__div {
+	width: 75%;
+	margin: 0px auto;
+	padding: 0px 0px;
+	padding-bottom: 50px;
+	border-bottom: 2px solid;
+	border-color: white;
 	color: white
 }
 
-.main__paragraph 
-{
+.main__div--donate {
+	width: 75%;
+	margin: 0px auto;
+	padding: 0px 0px;
+	border-bottom: 2px solid;
+	border-color: white;
+	color: white
+}
+
+.main__paragraph {
 	margin: 0px 0px;
 	padding: 0px 0px;
 	color: white
+}
+
+.main__div--disaster {
+	border-top: 2px dashed;
+	border-color: white;
+	margin: 0px 0px;
+	padding: 2px 0px;
+	color: white;
+	text-align: center;
 }
 
 .main__footer {
@@ -112,4 +127,12 @@
    	color: white;
    	text-align: center;
 	font-size:11px;
+}
+
+.main__sub-title {
+	font-size:13px;
+}
+
+.main__div--spacer {
+	padding: 50px 50px;
 }
